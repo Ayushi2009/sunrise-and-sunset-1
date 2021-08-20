@@ -49,12 +49,14 @@ console.log(responceJSON)
      console.log(hour);
 
     
-    if(hour>=17 ){
+    if(hour>=0 && hour<18){
         bg = "sunrise.png";
     }
     else{
-        
+       {
+          
         bg="sunset.png"
+        }
     }
     
     backgroundImg = loadImage(bg);
